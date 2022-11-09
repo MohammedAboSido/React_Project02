@@ -1,7 +1,7 @@
-import img1 from "../../../shared/assests/ourPrograms/sponsor-img1.jpg";
-import img2 from "../../../shared/assests/ourPrograms/sponsor-img2.jpg";
-import img3 from "../../../shared/assests/ourPrograms/sponsor-img3.jpg";
-import img4 from "../../../shared/assests/ourPrograms/sponsor-img4.jpg";
+import img1 from "images/ourSponsors/sponsor-img1.jpg";
+import img2 from "images/ourSponsors/sponsor-img2.jpg";
+import img3 from "images/ourSponsors/sponsor-img3.jpg";
+import img4 from "images/ourSponsors/sponsor-img4.jpg";
 
 const ourSponsorsData = [
     {
