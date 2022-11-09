@@ -1,6 +1,7 @@
 import React from "react";
 import CreativeSpeakers from "./design-system/components/CreativeSpeakers";
 import speakerData from "./design-system/components/CreativeSpeakers/Data";
+import "./design-system/main.css";
 
 function App() {
   const speakerList = speakerData.map((item) => {
