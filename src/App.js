@@ -1,21 +1,24 @@
 import React from "react";
-import CreativeSpeakers from "./design-system/components/CreativeSpeakers";
-import speakerData from "./design-system/components/CreativeSpeakers/Data";
+import ourProgramsData from "./design-system/components/OurPrograms/Data";
+import OurPrograms from "./design-system/components/OurPrograms/OurPrograms";
 import "./design-system/main.css";
 
 function App() {
-  const speakerList = speakerData.map((item) => {
+  const programsList = ourProgramsData.map((item) => {
     return (
-      <CreativeSpeakers
+      <OurPrograms
         img={item.img}
         alt={item.alt}
-        job={item.job}
+        description={item.description}
         name={item.name}
+        time={item.time}
+        title={item.title}
+        roomNumber={item.roomNumber}
         key={item.id}
       />
     );
   });
-  return <div style={{ display: "flex" }}>{speakerList}</div>;
+  return <>{programsList}</>;
 }
 
 export default App;
@@ -29,6 +32,18 @@ export default App;
 //       title={item.title}
 //       icon={item.icon}
 //       description={item.description}
+//       key={item.id}
+//     />
+//   );
+// });
+
+// const speakerList = speakerData.map((item) => {
+//   return (
+//     <CreativeSpeakers
+//       img={item.img}
+//       alt={item.alt}
+//       job={item.job}
+//       name={item.name}
 //       key={item.id}
 //     />
 //   );
