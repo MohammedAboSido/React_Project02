@@ -1,8 +1,11 @@
 import React from "react";
-import { Link } from "./style";
+import { Links } from "./style";
+// import { Link } from "./style";
 
-export default function NavLinks({navLink,navText}) {
-  return(
-    <Link href={navLink}>{navText}</Link>
+export default function NavLinks({ navLink, navText, color }) {
+  return (
+    <Links style={{ color: color }} to={navLink}>
+      {navText}
+    </Links>
   );
 }

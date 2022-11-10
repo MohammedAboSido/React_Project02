@@ -1,36 +1,36 @@
-const links = [
+export default function links() {
+  return [
     {
-        navLink:'/',
-        navText: "Intro",
+      navLink: "/",
+      navText: "Intro",
     },
-        {
-        navLink:'/',
-        navText: "Overview",
+    {
+      navLink: "/overview",
+      navText: "Overview",
     },
-        {
-        navLink:'/',
-        navText: "Speakers",
+    {
+      navLink: "/speakers",
+      navText: "Speakers",
     },
-        {
-        navLink:'/',
-        navText: "Programs",
+    {
+      navLink: "/programs",
+      navText: "Programs",
     },
-        {
-        navLink:'/',
-        navText: "Register",
+    {
+      navLink: "/register",
+      navText: "Register",
     },
-        {
-        navLink:'/',
-        navText: "Venue",
+    {
+      navLink: "/venue",
+      navText: "Venue",
     },
-        {
-        navLink:'/',
-        navText: "Sponsors",
+    {
+      navLink: "/sponsors",
+      navText: "Sponsors",
     },
-        {
-        navLink:'/',
-        navText: "Contact",
+    {
+      navLink: "/contact",
+      navText: "Contact",
     },
-];
-
-export default links;
+  ];
+}
