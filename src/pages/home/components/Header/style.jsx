@@ -3,7 +3,7 @@ import Header from "images/ourPrograms/intro-bg.jpg";
 import theme from "../../../../design-system/config";
 export const HeaderWrapper = styled("section")`
   label: HeaderWrapper;
-  height: 100vh;
+  height: 800px;
   padding: 20% 0;
   background: url(${Header}) fixed;
   background-size: cover;
