@@ -10,6 +10,7 @@ export const NavbarWrapper = styled("section")`
   position: fixed;
   width: 100%;
   background-color: ${theme.secondary};
+  z-index: 1000;
 `;
 export const NavContainer = styled("div")`
   label: NavContainer;
