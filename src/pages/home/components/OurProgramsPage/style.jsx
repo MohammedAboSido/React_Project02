@@ -37,12 +37,16 @@ export const Wrapper = styled("div")`
 export const Span = styled("span")`
   label: Span;
   font-weight: bold;
+  padding-bottom: 2rem;
   cursor: pointer;
 `;
 export const Line = styled("div")`
   label: Line;
   width: 100%;
   height: 1px;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
   background-color: ${theme.black};
+  position: relative;
+  top: -2px;
+  z-index: -1;
 `;

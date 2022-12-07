@@ -10,7 +10,7 @@ import img7 from "../../../shared/assests/ourPrograms/thirdday-1.jpg";
 import img8 from "../../../shared/assests/ourPrograms/thirdday-2.jpg";
 import img9 from "../../../shared/assests/ourPrograms/thirdday-3.jpg";
 
-const ourProgramsData = [
+export const tab1 = [
   {
     id: 1,
     time: "09.00 AM",
@@ -44,40 +44,9 @@ const ourProgramsData = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
-  {
-    id: 1,
-    time: "09.00 AM",
-    roomNumber: 240,
-    name: "By Jenny Green",
-    img: img1,
-    title: "Introduction to Design",
-    alt: "img1",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
-  },
-  {
-    id: 2,
-    time: "08.00 AM",
-    roomNumber: 250,
-    name: "By Jenny Green",
-    img: img2,
-    title: "Introduction to Design",
-    alt: "img2",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
-  },
-  {
-    id: 3,
-    time: "07.50 AM",
-    roomNumber: 230,
-    name: "By Jenny Green",
-    img: img3,
-    title: "Introduction to Design",
-    alt: "img3",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
-  },
+];
 
+export const tab2 = [
   {
     id: 4,
     time: "09.00 AM",
@@ -111,7 +80,9 @@ const ourProgramsData = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
+];
 
+export const tab3 = [
   {
     id: 7,
     time: "09.00 AM",
@@ -146,5 +117,3 @@ const ourProgramsData = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
   },
 ];
-
-export default ourProgramsData;
