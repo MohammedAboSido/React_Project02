@@ -1,6 +1,7 @@
 import React from "react";
 import AboutUs from "./components/AboutUsPage/AboutUs";
 import AccordionPage from "./components/AccordionPage/AccordionPage";
+import ContactUs from "./components/ContactUsPage/ContactUs";
 import CreativeSpeakersComponent from "./components/CreativeSpeakersPage/CreativeSpeakers";
 import Header from "./components/HeaderPage/Header";
 import Navbar from "./components/NavbarPage/Navbar";
@@ -25,6 +26,7 @@ export default function Home() {
       <AccordionPage />
       <Venue />
       <OurSponsors />
+      <ContactUs />
     </>
   );
 }
